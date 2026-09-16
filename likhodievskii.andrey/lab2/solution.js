@@ -1,4 +1,4 @@
-function hexColorToRgb(hexColor) {
+function hexToRgb(hexColor) {
   if (typeof hexColor !== 'string') {
     throw new Error('Hex color should be a string');
   }
@@ -25,4 +25,4 @@ function hexColorToRgb(hexColor) {
   return `rgb(${red}, ${green}, ${blue})`;
 }
 
-export {hexColorToRgb};
+export {hexToRgb};
