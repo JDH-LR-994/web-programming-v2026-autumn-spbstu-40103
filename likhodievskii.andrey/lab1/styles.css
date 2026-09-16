@@ -25,7 +25,7 @@ body {
   display: inline;
 }
 
-.menu a.active {
+.menu .active {
   background-color: #5757a0;
   color: white;
 }
